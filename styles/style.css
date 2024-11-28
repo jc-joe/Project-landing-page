@@ -12,13 +12,12 @@
     background-color: #1f2937;
 }
 
-.padding-lr {
-    padding: 0 15%;
-}
-
 
 /* ------------------------------------- HEADER -------------------------------------------- */
 
+.header {
+    padding: 0 15%;
+}
 
 .nav {
     display: flex;
@@ -90,8 +89,13 @@
 /* --------------------------------------------- MAIN ---------------------------------------- */
 /* Sec-1 */
 
-.projects {
+.section {
+    padding: 0 15%;
+}
+
+.projects.section {
     padding: 18px 0 64px;
+    /* background-color: #f9faf8; */
 }
 
 .projects h1 {
@@ -149,3 +153,62 @@
 
 /* Sec-2 */
 
+.grey-background {
+    background-color: #e5e7eb;
+    padding: 72px 15%;
+    text-align: center;
+}
+
+.quote, .quote-author {
+    padding: 0 10%;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-style: normal;
+    text-align: right;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Sec-3 */
+
+.get-in-touch {
+    padding: 72px 15%;
+    /* background-color: #f9faf8; */
+}
+
+.get-in-touch-bar {
+    padding: 32px 10%;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.get-in-touch-bar h2 {
+    margin-bottom: 6px;
+}
+
+.get-in-touch-bar button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+
+/* --------------------------- FOOTER ---------------------------------------- */
+
+
+.footer {
+    padding: 16px 0;
+    text-align: center;
+    color: #f9faf8;
+}
